@@ -1,4 +1,5 @@
 #+TITLE: Di-Higgs Searches at CMS
+#+AUTHOR:  
 #+EMAIL: bruno.alves@cern.ch 
 #+LATEX_CLASS: pos
 #+SETUPFILE: setup.org
@@ -29,4 +30,5 @@
 ~/dot-emacs/bibliography/references/higgs.bib,
 ~/dot-emacs/bibliography/references/l1.bib,
 ~/dot-emacs/bibliography/references/hgcal.bib,
+~/dot-emacs/bibliography/references/detector.bib,
 ~/dot-emacs/bibliography/references/mc_generation.bib]]
