@@ -13,11 +13,4 @@
 #+LATEX_HEADER: \crefname{table}{Table}{Tables}
 #+LATEX_HEADER: \Crefname{table}{Table}{Tables}
 
-#+LATEX_HEADER: \emailAdd{@EMAIL@}
-#+LATEX_HEADER: \author*[a]{Bruno Alves}
-#+LATEX_HEADER: \affiliation[a]{École Polytechnique, Route de Saclay, 91128 Palaiseau Cedex, France}
-#+LATEX_HEADER: \onbehalf{for the CMS Collaboration}
-#+LATEX_HEADER: \FullConference{31st International Workshop on Deep Inelastic Scattering (DIS2024) \\ 8–12 April 2024 \\ Grenoble, France \\}
-
-
   

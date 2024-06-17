@@ -1,4 +1,4 @@
-<<sec::run3>>
+ <<sec::run3>>
 
 Near future nonresonant HH searches will bring further constraints on $\kl$ and effective field theory couplings.
 Yet unexplored HH production modes and decay channels are being studied.

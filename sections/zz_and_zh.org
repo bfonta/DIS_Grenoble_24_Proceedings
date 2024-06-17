@@ -1,7 +1,7 @@
 <<sec:zz_zh>>
 
 # part 2
-Currently available \ac{QCD} simulations lack the required precision and statistics for a robust background estimate, particulary in distribution tails.
+Currently available \ac{QCD} simulations lack the required precision and statistics for a robust background estimate, particularly in distribution tails.
 Data-driven methods are therefore usually employed to model \ac{QCD}.
 The methods usually take an "ABCD-like" approach.
 The idea is to find fully uncorrelated variables on which the \ac{SR} selection depends, and invert the cuts to obtain \acp{CR}.
@@ -10,7 +10,7 @@ The background is derived in \acp{CR}, and thus requires an extrapolation to the
 In order to validate the extrapolation, a \ac{VR} is usually employed.
 However, the definition of an additional region will necessarily deplete the signal region.
 Additionally, the extrapolation cannot be tested directly, since the \ac{VR} differs from the signal region inasmuch as it is not signal-enriched.
-Aditionally, both \acp{CR} and \acp{VR} often suffer from low statistics, and become a dominant source of systematic uncertainties.
+Additionally, both \acp{CR} and \acp{VR} often suffer from low statistics, and become a dominant source of systematic uncertainties.
 There is therefore a need to develop new methods to estimate and validate the \ac{QCD}, that are not sensitive to low statistics.
 It would also be beneficial to directly test the ABCD extrapolation in the \ac{SR}.
 
@@ -25,7 +25,7 @@ The \zzzhbbbb{} analysis [[cite:&zz_zh_bbbb]] contributes with two improvements 
 Firstly, the mixing step is performed with 3-tagged data in order to increase statistics and make (4-tagged) signal contamination negligible.
 Statistics are also increased by lowering the b-tag working point used on the three jets.
 Secondly, the non-negligible presence of $\ttbar{}$ events is mitigated by removing such events from the mixing stage.
-This is done event-by-event via a classification neural network, which calculates the probability P(M) for each event to be multijet, where a random number X is generated between 0 and 1. If $\text{X} > \text{P(M)}$, the event is rejected.
+This is done event-by-event via a classification neural network, which calculates the probability P(M) for each event to be multi-jet, where a random number X is generated between 0 and 1. If $\text{X} > \text{P(M)}$, the event is rejected.
 For the validation of the background model, we have to ensure the size of the synthetic dataset is comparable to the one used for the model.
 The hemisphere dataset is thus sub-sampled, and 15 separate mixed models are formed, given the available statistics.
 Systematic uncertainties of the \ac{QCD} modeling are determined using the synthetic dataset in three different ways:

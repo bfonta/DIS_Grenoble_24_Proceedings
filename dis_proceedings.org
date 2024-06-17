@@ -1,8 +1,8 @@
 #+TITLE: Di-Higgs Searches at CMS
-#+AUTHOR: 
 #+EMAIL: bruno.alves@cern.ch 
 #+LATEX_CLASS: pos
 #+SETUPFILE: setup.org
+#+SETUPFILE: pos_setup.org
 #+SETUPFILE: definitions.org
 #+EXCLUDE_TAGS: noexport
 
@@ -12,10 +12,9 @@
 
 * Introduction
 #+INCLUDE: "sections/intro.org"
-
 * \ggtt{}
 #+INCLUDE: "sections/gammagammatautau.org"
-* QCD modelling with hemisphere mixing in \zzzhbbbb{}
+* QCD modeling with hemisphere mixing in \zzzhbbbb{}
 #+INCLUDE: "sections/zz_and_zh.org"
 * Single and double Higgs combination
 #+INCLUDE: "sections/single_double_combinations.org"
@@ -26,7 +25,6 @@
 
 * Bibliography :ignore:
 [[bibliographystyle:unsrt]]
-
 [[bibliography:
 ~/dot-emacs/bibliography/references/higgs.bib,
 ~/dot-emacs/bibliography/references/l1.bib,

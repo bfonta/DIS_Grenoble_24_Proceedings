@@ -8,8 +8,8 @@ The analysis exploits di-$\gamma$ triggers only, as triggering on the \tau's is 
 Standard photon and lepton selections are applied.
 The dominant backgrounds are peaking single-H and nonresonant \gamma+jets, \gamma\gamma+jets, $\ttbar+\gamma$, $\ttbar+\gamma\gamma$, $W\gamma$ and $Z\gamma$.
 Minor backgrounds are taken from simulation.
-The signal is fitted independently for different categories and data taking years with a double crystall ball function.
-The background also includes a \hgg{} contribution which is modelled just like the signal.
+The signal is fitted independently for different categories and data taking years with a double crystal ball function.
+The background also includes a \hgg{} contribution which is modeled just like the signal.
 The background continuum, instead, uses the discrete profiling method [[cite:&discrete_profiling]], which considers multiple analytical functions and penalizes those with many parameters.
 Interestingly, \tau’s are reconstructed in all its 6 decay modes ($ee$, $\mu\mu$, $e\mu$, $e\tau_{h}$, $\mu\tau_{h}$ and $\tau_{h}\tau_{h}$), and additionally the single $\tau_{h}$ and $\tau_{h}+\text{track}$ channels are considered when no electron or muon pass the selection.
 A DY mass cut vetoes events compatible with \zll{} or \zllg{} close to the mass of the Z.
