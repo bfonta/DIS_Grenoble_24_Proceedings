@@ -1,18 +1,15 @@
-<<sec:Combinations>>
+<<sec:combinations>>
 
-On top of the HH searches already mentioned, $\kl$ can be additionally constrained by exploiting \ac{NLO} \ac{EW} corrections to single Higgs processes, which also depend on $\kl$.
+On top of HH searches, $\kl$ can be constrained by exploiting \ac{EW} corrections to single Higgs processes.
 Single Higgs cross-sections can indeed be quite sensitive to $\kl$ variations, especially in the VH and ttH production modes, where up to 10% differences are expected.
-Additionally, there is a strong complementarity between direct and indirect searches.
+There is also a strong complementarity between direct and indirect searches.
 HH searches generally provide weaker contraints on the Higgs boson coupling to fermions and vector bosons, due to the lower production cross-section with respect to single Higgs.
 On the other hand, double Higgs processes provide stronger constraints on $\kl$.
 
-The main challenge of the combination recently performed by \ac{CMS} [[cite:&CMSHplusHHcomb]] consists on estimating and efficiently removing overlaps between signal regions of different analysis.
-The mitigation of double-counting and minimization of overlaps, together with the combination of event categories from both single and double-Higgs analysis, lead to stronger $\kl$ constraints.
+The main challenge of the combination [[cite:&CMSHplusHHcomb]] recently performed by \ac{CMS} consists on estimating and efficiently removing overlaps between signal regions of different analysis.
 The analysis with the most sensitive production modes are included.
 Whenever overlaps exist, one of two approaches is taken: either additional selections are applied, or the least sensitive category or analysis is removed.
-As an example, the \bbzz{} analysis is removed in favour of \zzfourl{} due to the former's relatively low sensitivity to $\kl$.
-Concerning systematics, their modelling in HH processes is generally simpler when compared to single H, due to the limited statistics of HH.
-
+The modelling of systematics in HH processes is generally simpler when compared to single H, due to the limited statistics of HH.
 \ac{CMS} observed exclusion intervals at 95% \ac{CL} of $-0.4 < \kl < 6.3$, assuming other Higgs couplings to follow the \ac{SM}, or $-1.4 < k_{\lambda} < 6.1$ otherwise.
 For comparison, \ac{ATLAS} observed $-0.4 < \kl < 6.3$, assuming \ac{SM} couplings, or $-1.4 < k_{\lambda} < 6.1$ otherwise [[cite:&ATLASHplusHHcomb]].
 We show ($\kl$, $\kt$) and ($\kv$, $\kvv$) scans in [[fig:combination_2d_scans]], where the complementarity between the two types of processes is clearly highlighted.

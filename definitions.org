@@ -1,4 +1,4 @@
-#+LATEX_HEADER: \newcommand{\pt}{p_{T}}
+#+LATEX_HEADER: \newcommand{\pt}{p_{\text{T}}}
 #+LATEX_HEADER: \newcommand{\cg}{c_{g}}
 #+LATEX_HEADER: \newcommand{\ctwog}{c_{2g}}
 #+LATEX_HEADER: \newcommand{\ctwo}{c_{2}}
@@ -29,6 +29,7 @@
 #+LATEX_HEADER: \newcommand{\reshybbtt}{X $\rightarrow$ HY $\rightarrow$ $\tau\tau$bb}
 #+LATEX_HEADER: \newcommand{\bbgg}{HH $\rightarrow$ bb$\gamma\gamma$}
 #+LATEX_HEADER: \newcommand{\bbzz}{HH $\rightarrow$ bbZZ}
+#+LATEX_HEADER: \newcommand{\ggtt}{HH $\rightarrow$ $\gamma\gamma\tau\tau$}
 #+LATEX_HEADER: \newcommand{\zzfourl}{H $\rightarrow$ ZZ $\rightarrow$ 4l}
 #+LATEX_HEADER: \newcommand{\zzbbbb}{ZZ $\rightarrow$ bbbb}
 #+LATEX_HEADER: \newcommand{\zhbbbb}{ZH $\rightarrow$ bbbb}
