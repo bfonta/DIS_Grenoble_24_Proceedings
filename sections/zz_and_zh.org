@@ -1,17 +1,17 @@
 <<sec:zz_zh>>
 
 # part 2
-Currently available \ac{QCD} simulations lack the required precision and statistics for a robust background estimate, particularly in distribution tails.
-Data-driven methods are therefore usually employed to model \ac{QCD}.
+Currently available multijet simulations lack the required precision and the available number of events for a robust background estimate, particularly in distribution tails.
+Data-driven methods are therefore usually employed to model the multijet background.
 The methods usually take an "ABCD-like" approach.
 The idea is to find fully uncorrelated variables on which the \ac{SR} selection depends, and invert the cuts to obtain \acp{CR}.
-The latter can be used to estimate both the shape and normalization of the \ac{QCD} background in the \ac{SR} without using it directly.
+The latter can be used to estimate both the shape and normalization of the \ac{QCD} multijet background in the \ac{SR}, without using the \ac{SR} directly.
 The background is derived in \acp{CR}, and thus requires an extrapolation to the \ac{SR}.
 In order to validate the extrapolation, a \ac{VR} is usually employed.
 However, the definition of an additional region will necessarily deplete the signal region.
 Additionally, the extrapolation cannot be tested directly, since the \ac{VR} differs from the signal region inasmuch as it is not signal-enriched.
-Additionally, both \acp{CR} and \acp{VR} often suffer from low statistics, and become a dominant source of systematic uncertainties.
-There is therefore a need to develop new methods to estimate and validate the \ac{QCD}, that are not sensitive to low statistics.
+Additionally, both \acp{CR} and \acp{VR} often suffer from a small number of events, and become a dominant source of systematic uncertainties.
+There is therefore a need to develop new methods to estimate and validate the \ac{QCD} multijet background that are not sensitive to small number of events.
 It would also be beneficial to directly test the ABCD extrapolation in the \ac{SR}.
 
 The hemisphere mixing technique [[cite:&hemisphere_mixing]] first creates a library of "hemispheres", which arise from the splitting of events along the plane orthogonal to the transverse thrust axis.
@@ -20,25 +20,24 @@ For each hemisphere a set of four variables is calculated: mass, longitudinal mo
 A second pass on data mixes pairs of hemispheres by minimizing their distances with respect to the normalized sum of the summary variables.
 The two hemispheres must belong to different events.
 
-The ZZ and ZH processes represent standard candles to validate HH analyses, given their cross-sections 31 and 8 times larger than the \ac{SM} ones, respectively, and are therefore expected to be observed before the \bbbb{} process.
-The \zzzhbbbb{} analysis [[cite:&zz_zh_bbbb]] contributes with two improvements to the original hemisphere mixing technique, where the splitting is done using a sample of events with four b-tagged jets, thus "pure" in signal events.
-Firstly, the mixing step is performed with 3-tagged data in order to increase statistics and make (4-tagged) signal contamination negligible.
+ZZ and ZH decays represent standard candles to validate HH analyses, given their larger cross-sections. The \zzzhbbbb{} processes (31 and 8 times the \bbbb{} cross-section, respectively) are therefore expected to be observed before \bbbb{}.
+The \zzzhbbbb{} analysis [[cite:&zz_zh_bbbb]] contributes with two improvements to the original hemisphere mixing technique, where the splitting is done using a sample of events with four b-tagged jets, thus pure in signal events.
+Firstly, the mixing step is performed with 3-tagged data in order to increase the sample's size and make (4-tagged) signal contamination negligible.
 Statistics are also increased by lowering the b-tag working point used on the three jets.
 Secondly, the non-negligible presence of $\ttbar{}$ events is mitigated by removing such events from the mixing stage.
-This is done event-by-event via a classification neural network, which calculates the probability P(M) for each event to be multi-jet, where a random number X is generated between 0 and 1. If $\text{X} > \text{P(M)}$, the event is rejected.
+This is done event-by-event via a classification neural network, which calculates the probability $P$ for each event to be multi-jet, where a random number X is generated between 0 and 1. If $\text{X} > P$, the event is rejected.
 For the validation of the background model, we have to ensure the size of the synthetic dataset is comparable to the one used for the model.
 The hemisphere dataset is thus sub-sampled, and 15 separate mixed models are formed, given the available statistics.
-Systematic uncertainties of the \ac{QCD} modeling are determined using the synthetic dataset in three different ways:
+Systematic uncertainties of the multijet modeling are determined using the synthetic dataset in three different ways:
 /i/) differences between mixed models, arising from limited statistics, are quantified using their average, /ii/) the background model is compared with the mixed models in the signal region, and /iii/) an unconstrained signal template is added to the signal + background fit to verify if a spurious signal can be mimicked by the background model.
 Despite not yet being used in the most recent \bbbb{} results, a principled and precise way of measuring the most important systematics directly in the \ac{SR} is thus available.
 We note that, given appropriate modifications, a similar method could be extended to the \bbtt{} analysis.
 
-In the analysis, the synthetic dataset is used for the validation of the \ac{QCD} background, where one of the mixed models is used as four-tagged data.
-The \ac{QCD} model is built on a control region, defined by requiring three b-tagged jets instead of four.
+In the \zzzhbbbb{} analysis, as mentioned, the synthetic dataset is used for the validation of the multijet background, which is in turn built on a control region, defined by requiring three b-tagged jets instead of four.
 The model is weighted by two sets of weights, to account for additional jet activity and subsisting kinematic mismatches, in order to match the \ac{SR}.
 The weights are derived in a di-jet mass sideband.
 The observed (expected) 95% CL upper limits on the production cross sections correspond to 3.8 (3.8) and 5.0 (2.9) times the \ac{SM} prediction, for the \zzbbbb{} and \zhbbbb{} processes, respectively.
-The analysis indicates that ZH will likely be observed before ZZ.
+The analysis indicates that \zhbbbb{} will likely be observed before \zzbbbb{}.
 
 * Additional bibliography :noexport:
 ** 4b novel techniques

@@ -1,22 +1,21 @@
 <<sec:ggtt>>
 
-\ac{CMS} has recently explored the extremely rare $\gamma\gamma\tau\tau$ decay channel (0.028% branching ratio), for the first time, using full Run2 data [[cite:&gammagammatautau]].
+\ac{CMS} has recently explored the extremely rare $\gamma\gamma\tau\tau$ decay channel (0.028% branching ratio), for the first time, using the Run 2 (2016-2018) dataset [[cite:&gammagammatautau]].
 The analysis covers both resonant and nonresonant production.
 We focus on the latter.
-
 The analysis exploits di-$\gamma$ triggers only, as triggering on the \tau's is found to have negligible impact.
 Standard photon and lepton selections are applied.
 The dominant backgrounds are peaking single-H and nonresonant \gamma+jets, \gamma\gamma+jets, $\ttbar+\gamma$, $\ttbar+\gamma\gamma$, $W\gamma$ and $Z\gamma$.
 Minor backgrounds are taken from simulation.
-The signal is fitted independently for different categories and data taking years with a double crystal ball function.
+The signal is fitted independently for different categories and data-taking years with a double crystal ball function.
 The background also includes a \hgg{} contribution which is modeled just like the signal.
 The background continuum, instead, uses the discrete profiling method [[cite:&discrete_profiling]], which considers multiple analytical functions and penalizes those with many parameters.
-Interestingly, \tau’s are reconstructed in all its 6 decay modes ($ee$, $\mu\mu$, $e\mu$, $e\tau_{h}$, $\mu\tau_{h}$ and $\tau_{h}\tau_{h}$), and additionally the single $\tau_{h}$ and $\tau_{h}+\text{track}$ channels are considered when no electron or muon pass the selection.
-A DY mass cut vetoes events compatible with \zll{} or \zllg{} close to the mass of the Z.
-A (di-photon) mass-independent \ac{BDT} is used, considering input features related to the events' kinematic properties.
+The tau lepton pairs are reconstructed in their 6 possible decay modes ($ee$, $\mu\mu$, $e\mu$, $e\tau_{h}$, $\mu\tau_{h}$ and $\tau_{h}\tau_{h}$), and additionally the single $\tau_{h}$ and $\tau_{h}+\text{track}$ channels are considered when no electron or muon passes the selection.
+Events compatible with \zll{} or \zllg{} close to the mass of the Z boson are rejected using a selection cut on the mass.
+A (di-photon) mass-independent \ac{BDT} is used, considering input features related to the kinematic properties of the event.
 Sequential boundaries are applied to the \ac{BDT}'s output to create two categories of different signal purities.
 The splitting maximizes signal sensitivity.
-Events not belonging to one those categories are discarded.
+Events not belonging to one of those categories are discarded.
 The final results are obtained performing a simultaneous maximum likelihood fit to $\mgg$ in the two signal-enriched categories.
 As predicted by the SM, the analysis observes very few $\gamma\gamma\tau\tau$ candidates.
 It delivers observed (expected) $\kl$ 95% \ac{CL} upper limits, $-13\;(-11) < k_{\lambda} < 18\;(16)$, and on the HH proton-proton cross-section, $\sigma_{\text{HH}} < 930\;(740)\;\si{\femto\barn}$ or $\sigma_{\text{HH}} < 33\;(26)\;\sigma_{\text{HH}}^{\text{SM}}$.

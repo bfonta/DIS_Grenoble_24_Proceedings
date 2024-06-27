@@ -1,17 +1,15 @@
 <<sec:combinations>>
 
-On top of HH searches, $\kl$ can be constrained by exploiting \ac{EW} corrections to single Higgs processes.
+On top of HH searches, $\kl$ can be constrained by exploiting electroweak corrections to single Higgs processes.
 Single Higgs cross-sections can indeed be quite sensitive to $\kl$ variations, especially in the VH and ttH production modes, where up to 10% differences are expected.
 There is also a strong complementarity between direct and indirect searches.
 HH searches generally provide weaker constraints on the Higgs boson coupling to fermions and vector bosons, due to the lower production cross-section with respect to single Higgs.
 On the other hand, double Higgs processes provide stronger constraints on $\kl$.
-
-The main challenge of the combination [[cite:&CMSHplusHHcomb]] recently performed by \ac{CMS} consists on estimating and efficiently removing overlaps between signal regions of different analysis.
-The analysis with the most sensitive production modes are included.
+The main challenge of the combination [[cite:&CMSHplusHHcomb]] recently performed by \ac{CMS} consists in estimating and efficiently removing overlaps between signal regions of different analyses.
 Whenever overlaps exist, one of two approaches is taken: either additional selections are applied, or the least sensitive category or analysis is removed.
 The modeling of systematics in HH processes is generally simpler when compared to single H, due to the limited statistics of HH.
-\ac{CMS} observed exclusion intervals at 95% \ac{CL} of $-0.4 < \kl < 6.3$, assuming other Higgs couplings to follow the \ac{SM}, or $-1.4 < k_{\lambda} < 6.1$ otherwise.
-For comparison, \ac{ATLAS} observed $-0.4 < \kl < 6.3$, assuming \ac{SM} couplings, or $-1.4 < k_{\lambda} < 6.1$ otherwise [[cite:&ATLASHplusHHcomb]].
+\ac{CMS} observed exclusion intervals at 95% \ac{CL} of $-2.0 < \kl < 7.7$, assuming other Higgs couplings to follow the \ac{SM}, or $-1.2 < k_{\lambda} < 7.5$ otherwise.
+For comparison, \ac{ATLAS} [[cite:&atlas_collab]] observed $-0.4 < \kl < 6.3$, assuming \ac{SM} couplings, or $-1.4 < k_{\lambda} < 6.1$ otherwise [[cite:&ATLASHplusHHcomb]].
 We show ($\kl$, $\kt$) and ($\kv$, $\kvv$) scans in [[fig:combination_2d_scans]], where the complementarity between the two types of processes is clearly highlighted.
 \ac{CMS} was also able to once again [[cite:&higgs_10_years]] exclude $\kvv=0$ at more than 5\sigma, this time without fixing $\kv=1$.
 

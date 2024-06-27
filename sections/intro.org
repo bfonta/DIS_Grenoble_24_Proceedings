@@ -1,7 +1,7 @@
 <<sec:intro>>
 
-The production of Higgs boson pairs (HH), despite its rarity and experimental challenges, has become a central piece of the scientific programme of \ac{CMS} [[cite:&cms_collab]] at the \ac{LHC}.
-Measurements of the Higgs self-coupling $\kl$ provide a unique \ac{SM} consistency test, probe the stability of the vacuum of our Universe, and might help establishing new theoretical explanations for baryogenesis [[cite:&higgs_10_years]].
+The production of Higgs boson [[cite:&ATLAS_Higgs_discovery;&CMS_Higgs_discovery1;&CMS_Higgs_discovery2]] pairs (HH), despite its rarity and experimental challenges, has become a central piece of the scientific programme of the \ac{CMS} experiment [[cite:&cms_collab]] at the \ac{LHC}.
+Measurements of the Higgs self-coupling $\kl$ provide a unique \ac{SM} consistency test, probe the stability of the vacuum of our Universe, and might help establishing, for instance, new theoretical explanations for baryogenesis [[cite:&higgs_10_years]].
 We report the most recent \ac{CMS} HH results.
 
 * Additional bibliography :noexport:
